@@ -52,7 +52,7 @@
 #include <I2c7SegmentLed.h>
 #include <Wire.h>
 #elif SPARK                     // if using a core, photon, or electron (by particle.io)
-#include "I2c7SegmentLed/I2c7SegmentLed.h"  // use this if the library files are in the particle repository of libraries
+#include "I2c7SegmentLed.h"  // use this if the library files are in the particle repository of libraries
 //#include "I2c7SegmentLed.h"     // use this if the library files are in the same folder as this demo program
 #else                           // if using something else
 #endif
