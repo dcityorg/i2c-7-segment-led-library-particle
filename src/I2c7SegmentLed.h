@@ -11,6 +11,8 @@
   versions
     1.0.0 - 7/31/2016
       Original Release.
+    1.0.1 - 2/19/2017
+      Minor changes to make this library compatiable with the Particle V2 library standard.
 
 
   Short Description:
@@ -73,7 +75,7 @@
 #include "Arduino.h"
 #include <Wire.h>
 #elif SPARK                    // if using a core, photon, or electron (by particle.io)
-#include "application.h"
+#include "Particle.h"
 #else                          // if using something else
 #endif
 

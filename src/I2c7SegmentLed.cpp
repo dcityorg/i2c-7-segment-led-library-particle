@@ -1,6 +1,3 @@
-// 1. need to figure out how to get the const LedSegments into program memory, not ram memory !!!!!!!!
-
-
 
 /*
   Important NOTES:
@@ -15,6 +12,8 @@
   versions
     1.0.0 - 7/31/2016
       Original Release.
+    1.0.1 - 2/19/2017
+      Minor changes to make this library compatiable with the Particle V2 library standard.
 
   Short Description:
     These files provide software for Arduino and Particle (Photon, Electron, and Core)

@@ -11,6 +11,8 @@
   versions
     1.0.0 - 3/19/2016
       Original release.
+    1.0.1 - 2/19/2017
+      Minor changes to make this library compatiable with the Particle V2 library standard.
 
   Short Description:
     These files provide software for Arduino and Particle (Photon, Electron, and Core)
@@ -53,7 +55,6 @@
 #include <Wire.h>
 #elif SPARK                     // if using a core, photon, or electron (by particle.io)
 #include "I2c7SegmentLed.h"  // use this if the library files are in the particle repository of libraries
-//#include "I2c7SegmentLed.h"     // use this if the library files are in the same folder as this demo program
 #else                           // if using something else
 #endif
 
